@@ -1,0 +1,19 @@
+{
+  "properties": [
+    {
+      "name": "spring.sleuth.sampler.probability",
+      "type": "java.lang.String",
+      "description": "Description for spring.sleuth.sampler.probability."
+    },
+    {
+      "name": "spring.zipkin.enabled",
+      "type": "java.lang.String",
+      "description": "Description for spring.zipkin.enabled."
+    },
+    {
+      "name": "spring.zipkin.base-url",
+      "type": "java.lang.String",
+      "description": "Description for spring.zipkin.base-url."
+    }
+  ]
+}
