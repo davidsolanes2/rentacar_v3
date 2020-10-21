@@ -45,9 +45,9 @@ spring:
       indent-output: true
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
-    url: jdbc:mysql://localhost:3306/rentacar_v3?useUnicode=true&characterEncoding=utf8&useSSL=false&useLegacyDatetimeCode=false&serverTimezone=UTC&createDatabaseIfNotExist=true
+    url: jdbc:mysql://localhost:3306/rentacar_v3?useUnicode=true&characterEncoding=utf8&useSSL=false&useLegacyDatetimeCode=false&serverTimezone=GMT&createDatabaseIfNotExist=true&allowPublicKeyRetrieval=true&useSSL=false
     username: root
-    password:
+    password: d4v1d001
     hikari:
       poolName: Hikari
       auto-commit: false
